@@ -1,3 +1,3 @@
-Username  <input type="text"  /><br>
+Username  <input type="text"  [(ngModel)]="name" /><br>
 Password  <input type="password" /><br>
-<input type="button" value="login" />
+<input (click)=login() type="button" value="login" />
